@@ -251,6 +251,6 @@ def hotfolder(folder_url,
 
 
 # URL to access (to be passed as parameter of the hotfolder)
-url_test="sftp://admin_igs:Adm!IGS-cp16@192.168.103.1/virtualDisks/jail/workspace/PDFPrinter/input/"
-url_logs="sftp://admin_igs:Adm!IGS-cp16@192.168.103.1/virtualDisks/jail/workspace/PDFPrinter/logs/"
+url_test="sftp://<url to set for sftp folder>/input/"
+url_logs="sftp://<url to set for sftp folder>/logs/"
 print(list_files_from_url(url_test))
